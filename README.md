@@ -16,7 +16,10 @@ This tools leverages the pycurl library to make HTTP requests. To install:
 ```pip3 install pycurl```
 
 ## Example
-```python3 urlcheck.py --url http://www.example.com # will continuously query www.example.com for 10 seconds```
+```
+#will continuously query www.example.com for 10 seconds
+python3 urlcheck.py --url http://www.example.com 
+```
 
 Output:
 ``` 
